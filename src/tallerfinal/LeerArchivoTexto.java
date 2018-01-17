@@ -24,7 +24,7 @@ public class LeerArchivoTexto {
     public void abrirArchivo(int op) {
         if (op == 1) {
             try {
-                entrada = new Scanner(new File("datos.txt"));
+                entrada = new Scanner(new File("100.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -33,13 +33,77 @@ public class LeerArchivoTexto {
         }
         if (op == 2) {
             try {
-                entrada = new Scanner(new File("datos.txt"));
+                entrada = new Scanner(new File("1000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
                 System.exit(1);
             } // fin de catch
         }
+        if (op == 3) {
+            try {
+                entrada = new Scanner(new File("100.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 4) {
+            try {
+                entrada = new Scanner(new File("1000.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 5) {
+            try {
+                entrada = new Scanner(new File("100.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 6) {
+            try {
+                entrada = new Scanner(new File("1000.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 7) {
+            try {
+                entrada = new Scanner(new File("100.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 8) {
+            try {
+                entrada = new Scanner(new File("1000.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        if (op == 9) {
+            try {
+                entrada = new Scanner(new File("100.txt"));
+            } // fin de try
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error al abrir el archivo.");
+                System.exit(1);
+            } // fin de catch
+        }
+        
     } // fin del metodo abrirArchivo
 
     // lee registro del archivo

@@ -12,7 +12,9 @@ import java.util.Scanner;
  * @author Carlitos
  */
 public class TallerFinal {
-     static OrdenamientoSeleccion arreglos;
+
+    static OrdenamientoSeleccion arreglos;
+
     //static LeerArchivoTexto leeA;
     /**
      * @param args the command line arguments
@@ -22,7 +24,6 @@ public class TallerFinal {
         Scanner sn = new Scanner(System.in);
         int ops = 0;
         LeerArchivoTexto leeA = new LeerArchivoTexto();
-        
 
         boolean salir = false;
         int opcion; //Guardaremos la opcion del usuario
@@ -74,7 +75,8 @@ public class TallerFinal {
                             case 2:
 
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -89,7 +91,8 @@ public class TallerFinal {
                             case 3:
 
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -104,7 +107,8 @@ public class TallerFinal {
                             case 4:
 
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -119,7 +123,8 @@ public class TallerFinal {
                             case 5:
 
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -134,7 +139,8 @@ public class TallerFinal {
                             case 6:
 
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -148,7 +154,8 @@ public class TallerFinal {
                                 break;
                             case 7:
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -162,7 +169,8 @@ public class TallerFinal {
                                 break;
                             case 8:
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
@@ -177,7 +185,8 @@ public class TallerFinal {
                                 break;
                             case 9:
                                 startTime = System.nanoTime();
-
+                                leeA.abrirArchivo(op);
+                                arreglos = new OrdenamientoSeleccion(leeA.leerRegistros());
                                 System.out.println("Arreglo desordenado:");
                                 System.out.println(arreglos); // imprime arreglo desordenado
 
