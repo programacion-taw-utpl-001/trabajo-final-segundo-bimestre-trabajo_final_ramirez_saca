@@ -42,7 +42,7 @@ public class LeerArchivoTexto {
         }
         if (op == 3) {
             try {
-                entrada = new Scanner(new File("100.txt"));
+                entrada = new Scanner(new File("5000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -51,7 +51,7 @@ public class LeerArchivoTexto {
         }
         if (op == 4) {
             try {
-                entrada = new Scanner(new File("1000.txt"));
+                entrada = new Scanner(new File("10000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -60,7 +60,7 @@ public class LeerArchivoTexto {
         }
         if (op == 5) {
             try {
-                entrada = new Scanner(new File("100.txt"));
+                entrada = new Scanner(new File("50000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -69,7 +69,7 @@ public class LeerArchivoTexto {
         }
         if (op == 6) {
             try {
-                entrada = new Scanner(new File("1000.txt"));
+                entrada = new Scanner(new File("100000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -78,7 +78,7 @@ public class LeerArchivoTexto {
         }
         if (op == 7) {
             try {
-                entrada = new Scanner(new File("100.txt"));
+                entrada = new Scanner(new File("500000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -87,7 +87,7 @@ public class LeerArchivoTexto {
         }
         if (op == 8) {
             try {
-                entrada = new Scanner(new File("1000.txt"));
+                entrada = new Scanner(new File("1000000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
@@ -96,7 +96,7 @@ public class LeerArchivoTexto {
         }
         if (op == 9) {
             try {
-                entrada = new Scanner(new File("100.txt"));
+                entrada = new Scanner(new File("2000000.txt"));
             } // fin de try
             catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error al abrir el archivo.");
