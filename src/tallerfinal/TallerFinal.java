@@ -16,6 +16,7 @@ public class TallerFinal {
     static OrdenamientoSeleccion arreglos1;
     static OrdenamientoCombinacion arreglos2;
     static OrdenamientoInsercion arreglos3;
+    
 
     //static LeerArchivoTexto leeA;
     /**
@@ -73,8 +74,12 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
+                                //Calcula el tiempo de ejecucion                                 
                                 endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                long miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular = new CalculaTiempo(miliseg);
+                                System.out.println(calcular);
+                                //System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
                                 break;
                             case 2:
 
@@ -559,7 +564,8 @@ public class TallerFinal {
             }
 
         }
-
     }
+
+    
 
 }
