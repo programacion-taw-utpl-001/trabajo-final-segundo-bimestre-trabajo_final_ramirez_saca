@@ -61,7 +61,7 @@ public class OrdenamientoSeleccion
 
       // indica la cantidad del arreglo que est� almacenada
       for( int j = 0; j < pasada; j++ )
-         System.out.print( "--  " );
+         //System.out.print( "--  " );
       System.out.println( "\n" ); // agrega fin de l�nea
    } // fin del m�todo imprimirPasada
 

@@ -27,9 +27,15 @@ public class CalculaTiempo {
 
     public long tiempo() {
         //long tiempo = 0;
-        long hora = getTiempo() / 3600000;
-        long min = getTiempo() / 60000;
-        long seg = getTiempo() / 1000;
+        //long hora = getTiempo() / 3600000;
+        //long min = getTiempo() / 60000;
+        long  seg = getTiempo() / 1000;
+        
+        long min = seg/ 60;
+        
+        long  hora = min/ 60; 
+        
+        
         System.out.println("Tiempo>> " + hora + " : " + min + " : " + seg + " : " + getTiempo());        
         return 0;
     }

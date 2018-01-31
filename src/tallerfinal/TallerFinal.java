@@ -94,8 +94,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular2 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular2);
                                 break;
                             case 3:
 
@@ -110,8 +112,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular3 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular3);
                                 break;
                             case 4:
 
@@ -126,8 +130,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular4 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular4);
                                 break;
                             case 5:
 
@@ -142,8 +148,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular5 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular5);
                                 break;
                             case 6:
 
@@ -158,8 +166,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular6 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular6);
                                 break;
                             case 7:
                                 startTime = System.nanoTime();
@@ -173,8 +183,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular7 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular7);
                                 break;
                             case 8:
                                 startTime = System.nanoTime();
@@ -188,8 +200,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular8 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular8);
 
                                 break;
                             case 9:
@@ -204,8 +218,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos1); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular9 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular9);
 
                                 break;
                             case 10:
@@ -246,8 +262,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                long miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular = new CalculaTiempo(miliseg);
+                                System.out.println(calcular);
                                 break;
                             case 2:
 
@@ -262,8 +280,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular2 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular2);
                                 break;
                             case 3:
 
@@ -278,8 +298,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular3 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular3);
                                 break;
                             case 4:
 
@@ -294,8 +316,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular4 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular4);
                                 break;
                             case 5:
 
@@ -310,8 +334,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular5 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular5);
                                 break;
                             case 6:
 
@@ -326,8 +352,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular6 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular6);
                                 break;
                             case 7:
                                 startTime = System.nanoTime();
@@ -341,8 +369,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular7 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular7);
                                 break;
                             case 8:
                                 startTime = System.nanoTime();
@@ -356,8 +386,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular8 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular8);
 
                                 break;
                             case 9:
@@ -372,8 +404,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos2); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular9 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular9);
 
                                 break;
                             case 10:
@@ -413,8 +447,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                long miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular = new CalculaTiempo(miliseg);
+                                System.out.println(calcular);
                                 break;
                             case 2:
 
@@ -429,8 +465,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular2 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular2);
                                 break;
                             case 3:
 
@@ -445,8 +483,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular3 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular3);
                                 break;
                             case 4:
 
@@ -461,8 +501,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular4 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular4);
                                 break;
                             case 5:
 
@@ -477,8 +519,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular5 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular5);
                                 break;
                             case 6:
 
@@ -493,8 +537,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular6 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular6);
                                 break;
                             case 7:
                                 startTime = System.nanoTime();
@@ -508,8 +554,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular7 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular7);
                                 break;
                             case 8:
                                 startTime = System.nanoTime();
@@ -523,8 +571,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular8 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular8);
                                 break;
                             case 9:
                                 startTime = System.nanoTime();
@@ -538,8 +588,10 @@ public class TallerFinal {
                                 System.out.println("Arreglo ordenado:");
                                 System.out.println(arreglos3); // imprime el arreglo ordenado
                                 leeA.cerrarArchivo();
-                                endTime = System.nanoTime() - startTime; // tiempo en que se ejecuta su método
-                                System.out.println("Tiempo" + "Duración: " + (endTime) / 1e6 + " ms");
+                                endTime = System.nanoTime() - startTime;
+                                miliseg = (long) ((endTime) / 1e6);
+                                CalculaTiempo calcular9 = new CalculaTiempo(miliseg);
+                                System.out.println(calcular9);
 
                                 break;
                             case 10:
