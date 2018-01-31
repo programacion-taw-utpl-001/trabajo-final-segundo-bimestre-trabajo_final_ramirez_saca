@@ -1,0 +1,242 @@
+#!/usr/bin/python3
+#Llamamos al tipo de Operacion
+
+
+
+def tipoOperacion():
+    correcto = False
+    num = 0
+    while (not correcto):
+        try:
+            num = int(input("ESCOJA UNA OPCION: "))
+            print("     ")
+            correcto = True
+        except ValueError:
+            print('Error, introduce un numero e2ntero')
+
+    return num
+
+
+salir = False
+opcion = 0
+#LLamamos a la Opcion con el numero de valores a Operar
+def numeroValores():
+    bien = False
+    n = 0
+    while (not bien):
+        try:
+            n = int(input("ESCOJA UN NUMERO DE VALORES"))
+            print("     ")
+            bien = True
+        except ValueError:
+            print('Error, introduce un numero entero')
+
+    return n
+
+
+sal = False
+op = 0
+
+#Ordenamiento Por seleccion
+def selectionsort(lista, tam):
+    print("Arreglo Desordenado")
+    print(lista)
+    for i in range(0, tam - 1):
+        min = i
+        for j in range(i + 1, tam):
+            if lista[min] > lista[j]:
+                min = j
+        aux = lista[min]
+        lista[min] = lista[i]
+        lista[i] = aux
+    print ("Arreglo Ordenado")
+    print lista
+
+#def imprimeLista(lista, tam):
+#    for i in range(0, tam):
+#        ar=(lista[i])
+#        print(ar)
+#Ordenamiento por Combinacion
+def ordenamiento_Combinacion(Lista):
+    print("Dividir ",Lista)
+    if len(Lista)>1:
+        mitad = len(Lista)//2
+        mitadIzquierda = Lista[:mitad]
+        mitadDerecha = Lista[mitad:]
+
+        ordenamiento_Combinacion(mitadIzquierda)
+        ordenamiento_Combinacion(mitadDerecha)
+
+        i=0
+        j=0
+        k=0
+        while i < len(mitadIzquierda) and j < len(mitadDerecha):
+            if mitadIzquierda[i] < mitadDerecha[j]:
+                Lista[k]=mitadIzquierda[i]
+                i=i+1
+            else:
+                Lista[k]=mitadDerecha[j]
+                j=j+1
+            k=k+1
+
+        while i < len(mitadIzquierda):
+            Lista[k]=mitadIzquierda[i]
+            i=i+1
+            k=k+1
+
+        while j < len(mitadDerecha):
+            Lista[k]=mitadDerecha[j]
+            j=j+1
+            k=k+1
+    print("Mezclar ",Lista)
+    print(Lista)
+
+
+#Ordenamiento Por Ircecion
+def ordenamiento_insercion(lista):
+    print("Lista Desordenanda")
+    for i in xrange(len(lista) - 1):
+        if lista[i + 1] < lista[i]:
+            reubicar(lista, i + 1)
+        print "Despuesde Pasada :", i, ">", lista
+    print("Arreglo Ordenado")
+    print(lista)
+def reubicar(lista, p):
+    v = lista[p]
+    j = p
+    while j > 0 and v < lista[j - 1]:
+        lista[j] = lista[j - 1]
+        j -= 1
+    lista[j] = v
+
+#Leer Lista
+def leeLista():
+        archivo = open("1000.txt", "r")
+        contenido = archivo.readlines()
+        lista_data = [int(r) for r in contenido]
+        return lista_data
+
+
+
+
+while not salir:
+
+    print ("1: Ordenamiento Por Seleccion")
+    print ("2: Ordenamiento Por combinacion")
+    print ("3: Ordenamiento Por Inserccion")
+    print ("4: SALIR")
+
+    print ("Elige una opcion")
+
+    opcion = tipoOperacion()
+
+    if opcion == 1:
+
+        print ("A SELECCIONADO LA OPCION 1")
+        while not sal:
+            print ("1: (100)")
+            print ("2: (1000)")
+            print ("3: (5000)")
+            print ("4: (10000)")
+            print ("5: (50000)")
+            print ("6: (100000)")
+            print ("7: (500000)")
+            print ("8: (1000000)")
+            print ("9: (2000000)")
+            print("0: Salir")
+            print ("Ingrese la Opcion con el Numero de valores a Operar")
+            op = numeroValores()
+            if op == 1:
+                print("100 Valores")
+                #leeArchivo()
+                A = leeLista()
+                selectionsort(A, len(A))
+
+            elif op ==2:
+
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista()
+                ordenamiento_Combinacion(A, len(A))
+
+            elif op ==3:
+                print ("1000 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 4:
+                print ("200 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 5:
+                print ("1000 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 6:
+                print ("200 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 7:
+                print ("1000 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 8:
+                print ("200 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 9:
+                print ("1000 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+            elif op == 2:
+                print ("200 Valores")
+                print("100 Valores")
+                # leeArchivo()
+                A = leeLista(op)
+                selectionsort(A, len(A))
+
+
+            elif op == 0:
+                sal = True
+            else:
+                print ("Introduce un numero entre 1 y 9")
+        print ("Fin")
+        print ("    ")
+    elif opcion == 2:
+        print ("Opcion 2")
+        B=leeLista()
+        ordenamiento_Combinacion(B)
+       # imprimeLista(B, len(B))
+    elif opcion == 3:
+        print("Opcion 3")
+        B = leeLista()
+        ordenamiento_insercion(B)
+    elif opcion == 4:
+        salir = True
+    else:
+        print ("Introduce un numero entre 1 y 3")
+
+print ("Fin")
+
+
+
