@@ -37,11 +37,11 @@ sal = False
 op = 0
 
 #Ordenamiento Por seleccion
-def selectionsort(lista, tam):
+def ordenamiento_Seleccion(lista, tam):
     print("Arreglo Desordenado")
     print(lista)
     for i in range(0, tam - 1):
-        min = i
+        min = i        
         for j in range(i + 1, tam):
             if lista[min] > lista[j]:
                 min = j
@@ -51,10 +51,11 @@ def selectionsort(lista, tam):
     print ("Arreglo Ordenado")
     print lista
 
+#Ordenamiento Por Combinacion
 def ordenamiento_Combinacion(Lista):
     print("Dividir ",Lista)
     if len(Lista)>1:
-        mitad = len(Lista)//2
+        mitad = len(Lista)/2
         mitadIzquierda = Lista[:mitad]
         mitadDerecha = Lista[mitad:]
 
@@ -183,7 +184,7 @@ while not salir:
                 #leeArchivo()
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -195,7 +196,7 @@ while not salir:
                 # leeArchivo()
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -207,7 +208,7 @@ while not salir:
                 # leeArchivo()
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -218,7 +219,7 @@ while not salir:
                 print ("A seleccionado la operacion con 10000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -229,7 +230,7 @@ while not salir:
                 print ("A seleccionado la operacion con 50000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -240,7 +241,7 @@ while not salir:
                 print ("A seleccionado la operacion con 500000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -251,7 +252,7 @@ while not salir:
                 print ("A seleccionado la operacion con 100000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -262,7 +263,7 @@ while not salir:
                 print ("A seleccionado la operacion con 1000000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
@@ -272,7 +273,7 @@ while not salir:
                 print ("A seleccionado la operacion con 2000000 valores")
                 starting_point = time.time()
                 A = leeLista(op)
-                selectionsort(A, len(A))
+                ordenamiento_Seleccion(A, len(A))
 
                 elapsed_time = time.time() - starting_point
                 elapsed_time_minutes = elapsed_time / 60
