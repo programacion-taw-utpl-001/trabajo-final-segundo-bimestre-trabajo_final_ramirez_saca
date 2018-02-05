@@ -52,7 +52,7 @@ public class TallerFinal {
                         System.out.println("1: (100)");
                         System.out.println("2: (1000)");
                         System.out.println("3: (5000)");
-                        System.out.println("4: (1000)");
+                        System.out.println("4: (10000)");
                         System.out.println("5: (50000)");
                         System.out.println("6: (100000)");
                         System.out.println("7: (500000)");
@@ -240,7 +240,7 @@ public class TallerFinal {
                         System.out.println("1: (100)");
                         System.out.println("2: (1000)");
                         System.out.println("3: (5000)");
-                        System.out.println("4: (1000)");
+                        System.out.println("4: (10000)");
                         System.out.println("5: (50000)");
                         System.out.println("6: (100000)");
                         System.out.println("7: (500000)");
@@ -425,7 +425,7 @@ public class TallerFinal {
                         System.out.println("1: (100)");
                         System.out.println("2: (1000)");
                         System.out.println("3: (5000)");
-                        System.out.println("4: (1000)");
+                        System.out.println("4: (10000)");
                         System.out.println("5: (50000)");
                         System.out.println("6: (100000)");
                         System.out.println("7: (500000)");
